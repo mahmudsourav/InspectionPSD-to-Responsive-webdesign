@@ -416,9 +416,11 @@ table tr:nth-child(odd) {
 /* Media Query for Tablet */
 @media only screen and (min-width: 501px) and (max-width: 768px){
 	.form-home {
-	height: 395px;
-	position: relative;
-	right: 15px;
+		height: 395px;
+		margin: 15px 0px 0px 15px;
+		position: relative;
+		right: 15px;
+		top: 0;
 	}
 	.img-class{
 		width: 50%;
@@ -429,15 +431,17 @@ table tr:nth-child(odd) {
 /* Media Query for Tablet */
 @media only screen and (min-width: 769px) and (max-width: 1024px){
 	.form-home {
-	position: relative;
-	right: 50px;
+		margin: 15px 0px 0px 15px;
+		position: relative;
+		right: 50px;
+		top: 0;
 	}
 	.img-class{
 		width: 100%;
 		padding-left: 35px;
 	}
 	.footer-icon li {
-    	display: inline;
-    	margin-left: 10px;
+    		display: inline;
+    		margin-left: 10px;
 	}
 }
