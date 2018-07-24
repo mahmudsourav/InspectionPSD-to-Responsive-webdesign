@@ -1,0 +1,441 @@
+/* 
+Author : Sourav Mahmud;
+*/
+
+/*====================================
+	Global Section/ Normalization
+		1.Header
+		2.Testimonial
+		3.Footer
+
+	Home Page
+		Banner
+			-Contact Form
+		Intro
+		Service
+		Gallery
+		Company
+
+	About Us Page
+		Page-Head
+		About-us Content
+		Contact Form
+		Gallery
+
+	Service Page
+		Page-Head
+		Service Content
+		Contact Form
+=====================================*/
+
+/*-------------------------------
+	Global Section
+--------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Poppins:300,300i,400,400i,700,700i');
+
+*{
+	margin: 0;
+	padding:0;
+}
+	/*font-family: 'Open Sans', sans-serif;*/
+
+body{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+/*-------------------------------
+	1. Header Section
+--------------------------------*/
+header{
+	padding: 15px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #267a9c;
+    padding: 0px 15px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #1775bc;
+}
+
+.btn-call{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #05668d;
+	color: #fff;
+	padding: 10px 20px;
+}
+.btn-call img{
+	padding-right: 5px;
+}
+.btn-get{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #0dae8c;
+	color: #fff;
+	padding: 10px 20px;
+	
+}
+
+
+/*-------------------------------
+	2.Testimonial Section
+--------------------------------*/
+.testimonial{
+	background-color: #05668d;
+	padding: 50px 0px;
+}
+.testimonial-content{
+	padding: 20px 10px;
+}
+.quote-mark{
+	color:#1e7699;
+	padding: 0px 15px;
+}
+
+.quote-person{
+	padding: 30px 0px 15px;
+}
+
+.testimonial-text{
+	color: #fff;
+}
+
+/*-------------------------------
+	3.Footer Section
+--------------------------------*/
+footer{
+	background-color: #0a5370;
+	padding:15px;
+}
+
+.footer-text{
+	padding-top: 15px;
+	color: white;
+}
+.footer-icon{
+	list-style: none;
+	padding-top: 15px;
+}
+.footer-icon li{
+	display: inline;
+	margin-left: 20px;
+}
+
+
+/*-------------------------------
+	Home Page
+--------------------------------*/
+
+.banner{
+	background: url(../image/banner.png) no-repeat;
+	background-size: cover;
+	padding: 250px 0px;
+	overflow: hidden;
+}
+
+.banner-overlay{
+	background-color: rgba(0,0,0,.4);
+	padding: 50px 0px;
+	position: relative;
+}
+
+
+
+.banner-text p{
+	color:#fff;
+	width: 450px;
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.btn-learn{
+	background-color: #fff;
+	color: #0dae8c;
+	padding: 8px 25px;
+	transition: 0.5s ease all;
+}
+.btn-learn:hover{
+	background-color: #0dae8c;
+	color:#fff;
+}
+
+.form{
+	background-color: white;
+	padding: 25px 20px;
+	
+	color: #05668d;
+}
+.form-home{
+	width: 370px;
+	height: 380px;
+	position: absolute;
+	right: 175px;
+    top: -60px;
+}
+
+.form-control{
+	background-color: #edf1b8;
+	color: #05668d;
+}
+.form-control::placeholder{
+	color: #05668d;
+}
+.form-control:-ms-input-placeholder{
+	color: #05668d;
+}
+.form-control::ms-input-placeholder{
+	color: #05668d;
+}
+.btn-submit{
+	background-color: #0dae8c;
+	color: #fff;
+	float: right;
+	padding: 8px 15px;
+}
+
+/*-------------------------------
+	Intro Section
+--------------------------------*/
+.intro{
+	background-color: #0dae8c;
+	padding: 40px 0px;
+	overflow: hidden;
+	color: #edf1b8;
+}
+.intro-head{
+	border-right: 2px solid #edf1b8;
+	padding: 30px 40px;
+}
+
+.triangle{
+	width: 40px;
+	height: 35px;
+	margin: -25px auto -10px;
+	z-index: 2;
+	background-color: #0dae8c;
+	transform: rotate(45deg);
+}
+
+.intro-2{
+	background-color: #edf1b8;
+	padding: 70px 0px;
+}
+
+.intro-2 h4{
+	padding-bottom: 20px;
+}
+.intro-2 p{
+	padding-bottom: 20px;
+}
+.triangle-2{
+	width: 40px;
+	height: 35px;
+	margin: -25px auto -10px;
+	z-index: 2;
+	background-color: #edf1b8;
+	transform: rotate(45deg);
+}
+
+/*-------------------------------
+	Service Section
+--------------------------------*/
+.service{
+	padding: 50px 0px;
+}
+
+.service-list{
+	list-style: none;
+}
+.service-icon{
+	padding: 5px 15px;
+}
+.serv-btn-icon{
+	padding-left: 15px; 
+}
+
+/*-------------------------------
+	Gallery Section
+--------------------------------*/
+.gallery{
+	padding-top: 20px;
+}
+
+/*-------------------------------
+	company Section
+--------------------------------*/
+.company{
+	padding: 50px 0px;
+}
+.triangle-3{
+	width: 40px;
+	height: 35px;
+	margin: -25px auto -10px;
+	z-index: 2;
+	background-color: #fff;
+	transform: rotate(45deg);
+}
+.client-image{
+	padding:0px 45px;
+}
+
+
+/*-------------------------------
+	About Page
+--------------------------------*/
+
+.page-banner{
+	background: url(../image/about-banner.png) no-repeat;
+	background-size: cover;
+	padding-bottom: 10px;
+
+}
+
+.page-overlay{
+	background-color: rgba(0,0,0,.6);
+	padding: 40px 0px;
+}
+.page-head{
+	color: #fff;
+}
+
+.about-us{
+	padding: 20px 0px;
+}
+.about-content img{
+	padding: 25px 0px;
+	height: 350px;
+	width: 100%;
+}
+.about-content p{
+	color: #05668d;
+	font-weight: 400;
+	font-size: 14px;
+}
+.img-class{
+	float: left;
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 25%;
+
+}
+.gallery-section{
+overflow: hidden;
+}
+
+/*-------------------------------
+	contact Page
+--------------------------------*/
+
+.contact-info{
+	padding-top: 10px;
+}
+.contact-icon{
+	color: #0dae8c;
+	padding-left: 25px;
+}
+
+.contact-text{
+	color: #0a5370;
+}
+
+
+
+/*-------------------------------
+	Service Page
+--------------------------------*/
+
+.service-content{
+	padding: 0px 20px;
+}
+
+.content-header{
+	color: #05668d;
+	padding: 20px 0px 10px;
+}
+.content-text{
+	color: #05668d;
+}
+
+
+/*-----------------------------
+	Pricing Page
+------------------------------*/
+
+table { 
+	width: 100%;
+	padding: 20px;
+	border: none; 
+	border-collapse: collapse; 
+	margin-bottom: 50px;
+	color: #05668d;
+}
+table td { 
+	padding: 15px;
+	border-left: 1px solid #e0e4aa;
+	width: 50%;
+}
+
+table td:first-child { border-left: none; }
+
+table tr:nth-child(odd) {
+    background-color: #fbfeda;
+    border-bottom: 1px solid #e0e4aa;
+}
+
+.pricing-content{
+	color: #05668d;
+	padding: 25px 20px;
+}
+
+
+
+
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 500px){
+	.banner{
+		padding: 0px;
+	}
+	.banner-text p {
+    width: 100%;
+	}
+	.form-home {
+	margin: 15px 0px 0px 15px;
+	position: relative;
+	top: 0;
+	right:0;
+	}
+	.img-class{
+		width: auto;
+		padding-left: 35px;
+	}
+}
+
+/* Media Query for Tablet */
+@media only screen and (min-width: 501px) and (max-width: 768px){
+	.form-home {
+	height: 395px;
+	right: 15px;
+	}
+	.img-class{
+		width: 50%;
+		padding-left: 35px;
+	}
+}
+
+/* Media Query for Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	.form-home {
+	right: 50px;
+	}
+	.img-class{
+		width: 100%;
+		padding-left: 35px;
+	}
+	.footer-icon li {
+    display: inline;
+    margin-left: 10px;
+	}
+}
